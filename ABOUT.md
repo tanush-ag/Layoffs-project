@@ -1,7 +1,7 @@
 "layoffs.csv" is the raw dataset obtined from the internet. I contains information regarding layoffs of the employees in absolute and relative terms from various
 companies, indstry, location, fund raised in million, and a couple of more columns.
 <br>
-<br>
+
 "data_cleaning.sql" is created in MySQL Workbench version 8.0
 
 This file contains SQL code for cleaning the dataset to make it usable to line out insights from the dataset.
