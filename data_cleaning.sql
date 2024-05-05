@@ -151,7 +151,7 @@ UPDATE layoffs_staging2
 SET industry = NULL
 WHERE industry = '';
 
--- Joining the same tables to fill in values
+-- Joining the same tables to fill in values (inner join)
 
 SELECT t1.company, t1.industry, t1.location, t2.company, t2.industry, t2.location
 FROM	layoffs_staging2 t1
